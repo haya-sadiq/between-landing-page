@@ -30,26 +30,26 @@ header{
     align-items: center;
 }
 
-.header_nav_and_btn{
+.header-nav-and-btn{
     display: flex;
     align-items: center;
     gap: 32px;
 }
 
-.nav_links {
+.nav-links {
     display: flex;
     gap: 32px;
    
 }
 
-.nav_links a {
+.nav-links a {
       color: #427174; 
       font-family: inter;
     /* font-size: 18px ; */
     font-size: 1rem;
 }
 
-.header_btn{
+.header-btn{
     background-color: #427174;
     color: #fff;
     /* font-size: 18px; */
@@ -59,23 +59,163 @@ header{
     width: 112px;
     height: 48px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* HERO SECTION */
 
 
-.hero_img{
+.hero-img{
     width: 100%;
     height: 550px;
     object-fit: cover;
 }
 
-/* .features {
+/* FEATURES SECTION */
+
+.features{
     background-color: #F7FAFC;
-    color: #1A202C;
-    font-family: 'Playfair Display';
+    padding: 60px 120px;
 }
 
-.section_heading{
+.section-heading{
     text-align: center;
-} */
+    font-weight: 600;
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    margin-bottom: 32px;
+      color: #1A202C;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px 19px;
+    padding: 11px;
+
+}
+
+.content-container{
+    text-align: center;
+    font-family: inter;
+    width: 380px;
+    height: 244px;
+    padding: 16px;
+
+}
+
+.features-icon{
+    margin-bottom: 20px;
+}
+.content-subheading{
+     font-size: 20px;
+     font-weight: 600;
+     margin-bottom: 8px;
+}
+
+.content-descripition{
+    font-family: inter;
+    color: #4A5568;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* HOW IT WORKS SECTION */
+
+.how-it-work{
+    background-color: #F7FAFC;
+    padding: 0 120px 60px;
+}
+
+.how-it-work .content-descripition{
+    font-size: 1rem;
+    text-align: center;
+    padding: 11px 11px 32px;
+}
+
+.video-frame{
+    max-width: 1200px;
+    height: 448px;
+    background-color: #32575A4D;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.video-play-icon{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/* PRICING WRAPPER */
+
+.pricing-wrapper{
+    background-color: #D0DBDC;
+    padding: 96px 210px;
+    text-align: center;
+}
+
+.pricing-description{
+    font-family: Inter;
+    font-size: 1.rem;
+    line-height: 25px;
+}
+
+.pricing-description span {
+    font-weight: 600;
+}
+
+/* FAQ's */
+
+.faq{
+    background-color: #F7FAFC;
+    padding: 80px 130px;
+}
+
+.section-heading span{
+    font-weight: 400;
+}
+
+.align-start{
+    text-align: start;
+    padding: 11px;
+}
+
+details{
+    padding: 16px 11px;
+    border-top: 1px solid #427174;
+}
+
+details[open]{
+    background-color: white;
+}
+
+details[open] summary{
+    font-weight: 600;
+}
+
+summary{
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.downward-arrow-icon{
+    color: #5F6368;
+}
+
+.flex{
+    display: flex;
+    gap: 1rem;
+}
+
+.question{
+    font-family: Inter;
+}
+
+.answer{
+    font-family: Inter;
+    margin: 20px 0 20px 26px;
+}
