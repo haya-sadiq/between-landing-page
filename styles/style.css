@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -218,4 +220,106 @@ summary{
 .answer{
     font-family: Inter;
     margin: 20px 0 20px 26px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #427174;
+    color: white;
+    /* padding: 80px 130px 40px; */
+}
+footer a{
+    color: white;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 130px 40px;
+
+}
+
+.content{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.content > *{
+    margin-bottom: 24px;
+}
+
+.content .bold{
+    font-weight: 600;
+}
+
+.social-icon{
+    margin-inline: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+.content a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+
+.footer-logo{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.location-icon{
+    margin-right: 8px;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 48px;
+    font-family: 'Roboto';
+    
+}
+
+.footer-nav li{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 200;
+    
+}
+
+.mail{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.footer-links-heading{
+    margin-bottom: 1rem;
+}
+
+hr{
+    border: 1px solid #bbbbbb
+}
+
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 130px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    
+
+}
+
+.legal-info a{
+    margin-inline: 24px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
